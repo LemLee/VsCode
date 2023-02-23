@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpDataLoader", "HttpDataLoader\HttpDataLoader.csproj", "{26FC4DA0-EE02-40F2-8061-860B74ABDD0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrmLight", "OrmLight", "{DFEF6587-260E-42E4-A0AF-D8468799C601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmLight", "OrmLight\OrmLight\OrmLight.csproj", "{2C2D19A8-33C6-4026-A6DC-2B96B637D3A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmLightTests", "OrmLight\OrmLightTests\OrmLightTests.csproj", "{B3016745-A702-410A-AF38-6B42CD62D5BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26FC4DA0-EE02-40F2-8061-860B74ABDD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FC4DA0-EE02-40F2-8061-860B74ABDD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FC4DA0-EE02-40F2-8061-860B74ABDD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FC4DA0-EE02-40F2-8061-860B74ABDD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2D19A8-33C6-4026-A6DC-2B96B637D3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2D19A8-33C6-4026-A6DC-2B96B637D3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2D19A8-33C6-4026-A6DC-2B96B637D3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2D19A8-33C6-4026-A6DC-2B96B637D3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3016745-A702-410A-AF38-6B42CD62D5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3016745-A702-410A-AF38-6B42CD62D5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3016745-A702-410A-AF38-6B42CD62D5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3016745-A702-410A-AF38-6B42CD62D5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C2D19A8-33C6-4026-A6DC-2B96B637D3A5} = {DFEF6587-260E-42E4-A0AF-D8468799C601}
+		{B3016745-A702-410A-AF38-6B42CD62D5BD} = {DFEF6587-260E-42E4-A0AF-D8468799C601}
+	EndGlobalSection
+EndGlobal
